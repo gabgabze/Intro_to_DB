@@ -1,6 +1,6 @@
 from os import environ
-
 import mysql
+import mysql.connector
 from mysql.connector import connect,Error
 
 # connection details
