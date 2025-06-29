@@ -1,8 +1,8 @@
 -- create db
--- CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 -- switch to the database
--- USE alx_book_store;
+USE alx_book_store;
 
 CREATE TABLE Books (
     BookID INT PRIMARY KEY,
