@@ -23,8 +23,8 @@ try:
     create_db = f"CREATE DATABASE IF NOT EXISTS alx_book_store"
     #mydb.execute(create_db)
     print("Database 'alx_book_store' created successfully!")
-except Error as e:
-    print("Error while connecting to MySQL", e)
+except mysql.connector.Error as err:
+    print("Error while connecting to MySQL", err)
 
 # Close connections
 mydb.close()
