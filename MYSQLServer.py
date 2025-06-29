@@ -17,3 +17,7 @@ try:
 except Error as e:
     print("Error while connecting to MySQL", e)
 
+
+# Close connections
+con.close()
+con.close()
