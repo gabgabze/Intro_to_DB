@@ -6,7 +6,7 @@ USE alx_book_store;
 
 CREATE TABLE Books (
     BookID INT PRIMARY KEY,
-    Title VARCHAR(130),
+    title VARCHAR(130),
     price DOUBLE,
     publication_date DATE,
     author_id int not null,
