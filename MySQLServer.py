@@ -13,7 +13,7 @@ try:
     ) as con:
         cur = con.cursor()
         # create db if it does not exist
-        create_db = "CREATE DATABASE IF NOT EXISTS,alx_book_store;"
+        create_db = f"CREATE DATABASE IF NOT EXISTS alx_book_store;"
         cur.execute(create_db)
         print(f"Database 'alx_book_store' created successfully!")
 except Error as e:
