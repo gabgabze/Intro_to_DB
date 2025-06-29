@@ -7,10 +7,8 @@ try:
     with connect(
             host='127.0.0.1',
             port=3306,
-            #user= environ.get('DB_USER'),
             user='root',
             password='Chelsea@123',
-            #password= environ.get('DB_PASSWORD'),
             database="alx_book_store"
     ) as con:
         print("Database 'alx_book_store' created successfully!")
